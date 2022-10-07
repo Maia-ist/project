@@ -32,3 +32,19 @@ p {
   letter-spacing: 0.1875px;
   color: hsl(212, 45%, 89%);
 }
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .div {
+    width: 90%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  div {
+    width: 80%;
+  }
+}
